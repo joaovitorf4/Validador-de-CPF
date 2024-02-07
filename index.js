@@ -1,6 +1,6 @@
 //Validador CPF
 
-let cpf = '705.484.450-52';
+let cpf = '000.000.000-00';
 
 let cpfLimpo = cpf.replace(/\D+/g, '').slice(0, -2);
 cpfArray = Array.from(cpfLimpo).map(Number);
